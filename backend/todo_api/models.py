@@ -12,7 +12,7 @@ class Task(Base):
     tag = models.CharField(max_length=50, blank=True)
     descricao = models.TextField(blank=True, default='')
     data = models.DateTimeField(blank=True, null=True)
-    ativo = models.BooleanField(default=True)
+    ativo = models.BooleanField(default=False)
 
     class Meta:
         verbose_name = 'Tarefa'
