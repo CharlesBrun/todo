@@ -1,11 +1,12 @@
+// src/app/page.js ou src/pages/index.js
 import React from 'react';
-import styles from "./page.module.css";
 
-const App = () => {
-
+const HomePage = () => {
   return (
-    "teste"
+    <div>
+      <h1>Welcome to Next.js!</h1>
+    </div>
   );
-};
+}
 
-export default App;
+export default HomePage;
