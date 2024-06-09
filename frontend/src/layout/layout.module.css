@@ -1,0 +1,12 @@
+.header_main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center !important;
+    background-color: none !important;
+    margin: 0.75rem 0;
+}
+
+.header_main__title {
+    color: #00003d !important;
+    margin-bottom: 0 !important;
+}
