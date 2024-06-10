@@ -4,6 +4,7 @@
     align-items: center !important;
     background-color: none !important;
     margin: 0.75rem 0;
+    flex-wrap: wrap;
 }
 
 .header_main__title {

@@ -2,7 +2,7 @@ import React from "react";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { AntdRegistry } from '@ant-design/nextjs-registry';
-import Design from "@/layout";
+import Design from "@/components/layout";
 
 const inter = Inter({ subsets: ["latin"] });
 

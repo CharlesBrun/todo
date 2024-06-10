@@ -113,3 +113,7 @@ a {
   line-height: 64px;
   background: none !important;
 }
+
+.ant-radio-button-checked {
+  background-color: #c0dcffb2;
+}

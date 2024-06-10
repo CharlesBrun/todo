@@ -1,7 +1,8 @@
 "use client"
 import React from "react";
-import { Button, Layout, Typography, theme } from 'antd';
+import { Layout, Typography, theme } from 'antd';
 import styles from "./layout.module.css";
+import ModalForm from "../modal-form";
 
 
 const { Header, Content, Footer } = Layout;
@@ -19,21 +20,17 @@ export default function Design({ children }) {
             }}
         >
             <Header className={styles.header_main}>
-                <Typography.Title 
+                <Typography.Title
                 className={styles.header_main__title}
                 >
                 Tarefas
                 </Typography.Title>
-                <Button
-                type="primary"
-                >
-                Adicionar Tarefa
-                </Button>
+                <ModalForm/>
             </Header>
             <div
             style={{
                 background: colorBgContainer,
-                minHeight: 280,
+                minHeight: '80vh',
                 padding: 24,
                 borderRadius: borderRadiusLG,
             }}
