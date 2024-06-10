@@ -52,6 +52,10 @@ O Frontend deste projeto utiliza React e Next.js para auxiliar com as rotas, no 
 
 O Backend é feito com Django, SQLite e `rest_framework` para a criação dos endpoints.
 
+#### Login Django Adm
+login: admin
+senha: 1234
+
 ##### Endpoints:
 
 - **View List**: `http://localhost:8000/api/v1/tarefas/`
