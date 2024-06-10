@@ -10,6 +10,30 @@ Para construir e criar os containers, utilize o seguinte comando:
 docker-compose up --build
 ```
 
+### Instalação Sem Docker
+
+Se preferir instalar sem Docker, siga os passos abaixo:
+
+#### Backend
+
+Navegue até o diretório do backend:
+
+```bash
+cd backend
+pip install -r requirements.txt
+python3 manage.py runserver
+```
+
+#### Frontend
+
+Navegue até o diretório do frontend:
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
 #### Frontend
 
 O Frontend deste projeto utiliza React e Next.js para auxiliar com as rotas, no caso de ser necessário criar outras páginas. No entanto, a ideia principal é que o cliente faça tudo na mesma página, sem precisar trocar de aba.
